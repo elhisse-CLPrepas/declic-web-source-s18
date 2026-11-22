@@ -20,3 +20,11 @@ Le rapport `livrables/mini-site-declic-web/CONTROLE.md` distingue les contrôles
 ## Réutilisation
 
 Cas et documents fictifs. Réutilisation autorisée dans cet atelier avec cette mention. Les crédits et limites figurent dans `livrables/mini-site-declic-web/SOURCES.md`. Les droits de diffusion hors atelier restent à compléter ; aucune licence générale supplémentaire n’est attribuée par ce dépôt.
+
+## Publication GitHub Pages
+
+Le workflow `.github/workflows/pages.yml` publie `livrables/mini-site-declic-web/` sur GitHub Pages. Il se declenche lors des modifications de ce dossier ou du workflow sur `main`, et peut etre lance manuellement depuis Actions.
+
+Adresse prevue : https://elhisse-clprepas.github.io/declic-we-source-s18/
+
+Pour publier une correction, modifier le mini-site dans ce dossier, creer un commit et pousser sur `main`. Verifier ensuite la reussite du workflow dans Actions. Les sources de travail et le ZIP restent dans le depot.
