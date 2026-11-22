@@ -13,7 +13,7 @@ Ouvrir `livrables/mini-site-declic-web/index.html` dans un navigateur, ou extrai
 - `livrables/mini-site-declic-web.zip` : pack autonome contrôlé après extraction.
 - `PROMPT-PERSONNALISE-S18.md` : brief du projet ; les autres documents S18 expliquent la méthode.
 - `produire-declic.py` : génération locale ; crée une nouvelle version si la destination existe déjà.
-- `controler-declic.py` : contrôle de la V1 avec Python et Node.js ; refuse de remplacer une archive existante.
+- `controler-declic.py` : contrôle de la V1 avec Python et Node.js ; refuse de remplacer une archive existante sauf avec l’option explicite `--rebuild-archive`.
 
 Le rapport `livrables/mini-site-declic-web/CONTROLE.md` distingue les contrôles exécutés des essais navigateur restant à effectuer. La validation pédagogique reste à examiner par le pilote.
 
@@ -28,3 +28,7 @@ Le workflow `.github/workflows/pages.yml` publie `livrables/mini-site-declic-web
 Adresse prevue : https://elhisse-clprepas.github.io/declic-we-source-s18/
 
 Pour publier une correction, modifier le mini-site dans ce dossier, creer un commit et pousser sur `main`. Verifier ensuite la reussite du workflow dans Actions. Les sources de travail et le ZIP restent dans le depot.
+
+## Logo et partage
+
+Les images LN-IA fournies sont conservées dans `entrees/` et copiées dans le mini-site. Le logo figure dans l’en-tête et dans les métadonnées Open Graph/Twitter ; le pied de page renvoie à [l’auteur](https://elhisse-clprepas.github.io/auteur-ln-ia/). Après modification de la V1, exécuter `python controler-declic.py --rebuild-archive` pour contrôler et mettre à jour le ZIP.

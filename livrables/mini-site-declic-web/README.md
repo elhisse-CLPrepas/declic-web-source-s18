@@ -29,3 +29,7 @@ Initiation uniquement : ni serveur, ni API, ni publication automatique. Aucun r�
 Pour preuve-S18.md : reporter les fichiers obtenus et les contrôles effectivement réalisés. Pour relais-S19.md : noter vos essais réels, leurs anomalies et les améliorations souhaitées après revue. Ne pas présenter ces suggestions comme des observations déjà réalisées.
 
 Classement conseillé : conserver le prompt personnalisé et AGENT.md dans `02-PROMPTS/`, le pack dans `04-WEB/livrables-S18/` et vos observations dans `06-PORTFOLIO/`. Aucun de ces dossiers personnels n’a été modifié automatiquement.
+
+
+## Identité et partage
+Logo et favicon fournis dans assets/images/. Logo dans l’en-tête et lien auteur en pied de page. index.html contient les métadonnées Open Graph et Twitter et les liens canonique et auteur. Les URL de partage désignent GitHub Pages ; les fonctions de base restent utilisables localement. Le lien auteur nécessite Internet. Les plateformes peuvent conserver leur aperçu en cache.

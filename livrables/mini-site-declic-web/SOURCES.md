@@ -13,3 +13,9 @@ Crédit : LN-IA · Module 05 · S18 · Création pédagogique. Cas, valeurs et d
 Documents de cadrage lus : AGENT.md, INSTRUCTIONS-PARTICIPANTS-S18.md, PROMPT-MAITRE-PRODUCTION-S18.md, PROMPT-PERSONNALISE-S18.md et LIRE-MOI.md. Non intégrés au pack : ils restent dans le dossier source. Le brief personnalisé détermine le nom de livraison mini-site-declic-web et le quiz de trois questions, en priorité sur le modèle générique.
 
 Référence S17 : index.html de la démonstration consulté en lecture seule, architecture HTML/CSS/JS et principes d’interaction observés. Aucun fichier S17 n’a été copié ; logo, dates, liens vers l’atelier et validations exclus. Aucun visuel externe, coordonnées, tarif ou témoignage ajouté.
+
+
+## Identité et auteur — mise à jour
+SRC-04 : logo-LN-IA.png et favicon.png, fournis par le participant pour intégration au mini-site publié. Copies inchangées : entrees/logo-LN-IA.png et entrees/favicon.png vers assets/images/ aux mêmes noms. Dimensions : 1774 × 887 pixels pour chaque fichier. Le favicon fourni est rectangulaire ; son apparence dans l’onglet reste à vérifier visuellement.
+
+Crédit auteur : Prof. Abderrahman EL HISSE · LN-IA. Lien fourni : https://elhisse-clprepas.github.io/auteur-ln-ia/ (externe, nécessite Internet). Logo utilisé dans l’en-tête et comme image Open Graph/Twitter. Aucune licence générale supplémentaire attribuée. Cette intégration remplace l’exclusion initiale du logo S17 ; les autres fichiers S17 restent exclus.
