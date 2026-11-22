@@ -21,7 +21,7 @@ def check(root):
         for ref in doc.refs:
             u=urlsplit(ref)
             if u.scheme or u.netloc:
-                assert ref in {'https://elhisse-clprepas.github.io/declic-we-source-s18/', 'https://elhisse-clprepas.github.io/auteur-ln-ia/'}, ref
+                assert ref in {'https://elhisse-clprepas.github.io/declic-web-source-s18/', 'https://elhisse-clprepas.github.io/auteur-ln-ia/'}, ref
                 continue
             assert not u.path.startswith('/'),ref
             target=(p.parent/unquote(u.path)).resolve() if u.path else p.resolve()
