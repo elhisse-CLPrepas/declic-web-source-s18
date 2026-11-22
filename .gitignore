@@ -1,0 +1,23 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Fichiers temporaires et dépendances
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+*.log
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
