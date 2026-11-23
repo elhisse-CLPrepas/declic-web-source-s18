@@ -33,3 +33,6 @@ Classement conseillé : conserver le prompt personnalisé et AGENT.md dans `02-P
 
 ## Identité et partage
 Logo et favicon fournis dans assets/images/. Logo dans l’en-tête et lien auteur en pied de page. index.html contient les métadonnées Open Graph et Twitter et les liens canonique et auteur. Les URL de partage désignent GitHub Pages ; les fonctions de base restent utilisables localement. Le lien auteur nécessite Internet. Les plateformes peuvent conserver leur aperçu en cache.
+
+## Affiche explicative
+assets/images/affiche.svg contient une image PNG intégrée : ouverture hors ligne autonome, proportions conservées. La miniature ouvre l’affiche en grand. Le fichier PNG source et le prompt exact sont conservés dans entrees/ du dépôt.

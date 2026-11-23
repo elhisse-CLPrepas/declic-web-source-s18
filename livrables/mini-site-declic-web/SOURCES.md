@@ -19,3 +19,9 @@ Référence S17 : index.html de la démonstration consulté en lecture seule, ar
 SRC-04 : logo-LN-IA.png et favicon.png, fournis par le participant pour intégration au mini-site publié. Copies inchangées : entrees/logo-LN-IA.png et entrees/favicon.png vers assets/images/ aux mêmes noms. Dimensions : 1774 × 887 pixels pour chaque fichier. Le favicon fourni est rectangulaire ; son apparence dans l’onglet reste à vérifier visuellement.
 
 Crédit auteur : Prof. Abderrahman EL HISSE · LN-IA. Lien fourni : https://elhisse-clprepas.github.io/auteur-ln-ia/ (externe, nécessite Internet). Logo utilisé dans l’en-tête et comme image Open Graph/Twitter. Aucune licence générale supplémentaire attribuée. Cette intégration remplace l’exclusion initiale du logo S17 ; les autres fichiers S17 restent exclus.
+
+
+## Nouvelle affiche explicative — 23 novembre 2026
+SRC-02 mise à jour : affiche générée avec l’outil ImageGen intégré à partir du guide SRC-01 et du logo LN-IA fourni (SRC-04), à la demande du participant. Relecture visuelle effectuée : noms des fichiers, rôles, étapes et limites conformes au guide.
+Image originale générée : entrees/affiche-declic-web.png. Prompt exact : entrees/prompt-affiche-declic-web.txt. Le fichier entrees/affiche.svg est désormais une enveloppe SVG autonome contenant le PNG encodé en base64 (image matricielle, pas un dessin vectoriel éditable). Copie identique dans assets/images/affiche.svg ; aucune ressource externe nécessaire.
+Ancienne affiche conservée dans entrees/archives/affiche-initiale.svg, hors pack. Le logo de l’affiche est une reproduction par génération ; le logo original reste intact dans l’en-tête du site. Mention fictive et crédit Prof. Abderrahman EL HISSE conservés. Aucun fait supplémentaire ajouté par l’affiche.

@@ -1,0 +1,21 @@
+Create a finished French educational portrait poster, scientific-educational infographic for the Déclic Web mini-site, approximately 1024x1536 or larger portrait. Reference input is the official LN-IA logo: reproduce that supplied mark faithfully in a white masthead panel without alteration, no invented logos. Sophisticated navy blue #091d35 / #173d69, metallic gold #d4aa57, crisp white; generous whitespace, precise editorial grid, large readable French sans-serif lettering, restrained clean diagram icons. The poster must EXPLAIN the roles and beginner workflow, rather than generic promotion. All text exact with accents, no lorem ipsum, no extra claims. Content and hierarchy:
+Logo at top modest size.
+Small kicker: "MODULE 05 · S18 · INITIATION"
+Large headline: "DÉCLIC WEB"
+Subtitle: "Trois fichiers. Une page. Un déclic."
+A central diagram of three clearly labelled local file cards flowing into a browser window, with:
+"HTML — STRUCTURER" / "index.html" / "Titres, paragraphes, images et liens."
+"CSS — PRÉSENTER" / "css/styles.css" / "Couleurs, caractères et mise en page."
+"JAVASCRIPT — FAIRE RÉAGIR" / "js/app.js" / "Afficher puis masquer une explication."
+Browser label: "LE NAVIGATEUR" / "Il lit les fichiers et affiche la page."
+Below a clean numbered workflow:
+"OBSERVER · MODIFIER · COMPARER"
+"1. Ouvrir index.html."
+"2. Repérer les trois fichiers."
+"3. Changer une seule chose à la fois."
+"4. Comparer avant et après."
+A bottom highlighted takeaway: "Aucun compte ni serveur requis pour ce support local."
+Small but readable footer: "Une initiation, pas une maîtrise complète du développement web."
+"Exemple pédagogique fictif · LN-IA"
+"Prof. Abderrahman EL HISSE"
+Do not add a QR code, date, fake website address, irrelevant technology or mastery promise. Use legible large typography throughout, no tiny dense body text. Final artifact is the poster itself, full bleed, no photographic frame or mockup.

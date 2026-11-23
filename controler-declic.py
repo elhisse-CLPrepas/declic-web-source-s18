@@ -64,7 +64,7 @@ for original,copy in [('affiche.svg','assets/images/affiche.svg'),('fiche-web.ht
     assert (base/'entrees'/original).read_bytes()==(site/copy).read_bytes()
 control=f'''# Contrôles — Déclic Web V1
 
-Contrôles agent exécutés le 22 novembre 2026, Windows, Python 3.14 et Node.js. Inspection des fichiers et tests avec DOM simulé : ce ne sont pas des essais navigateur.
+Contrôles agent réexécutés le 23 novembre 2026, Windows, Python 3.14 et Node.js. Inspection des fichiers et tests avec DOM simulé : ce ne sont pas des essais navigateur.
 
 | Vérification | Méthode et environnement | Résultat observé | Statut | Correction ou suite |
 | --- | --- | --- | --- | --- |
@@ -87,6 +87,13 @@ Contrôles agent exécutés le 22 novembre 2026, Windows, Python 3.14 et Node.js
 | Logo et favicon | Comparaison binaire ; en-tête PNG via Python | Images intactes, 1774 × 887 pixels ; CSS conserve les proportions | Réussi | Vérification visuelle à faire |
 | Open Graph et auteur | Analyse HTML Python | Balises requises présentes une seule fois ; liens auteur, favicon et canonique présents | Réussi | Aperçu réel sur réseau social non exécuté, cache possible |
 | Lien auteur | Requête HTTPS PowerShell | HTTP 200 au moment de la mise à jour | Réussi | Nécessite Internet |
+
+## Affiche explicative
+| Vérification | Méthode et environnement | Résultat observé | Statut | Correction ou suite |
+| --- | --- | --- | --- | --- |
+| Texte et composition | Relecture visuelle de l’image générée dans la conversation | Trois fichiers et rôles, navigateur, quatre étapes, limites, logo et crédit présents et lisibles | Réussi | Apparence dans la page à essayer en navigateur |
+| SVG autonome | Analyse XML et décodage base64 Python lors de l’intégration | PNG intégré identique à la génération ; aucun chargement externe ; copie source/site identique | Réussi | Le SVG contient une image matricielle |
+| Ancienne affiche | Copie préalable à la substitution | Original conservé dans entrees/archives/affiche-initiale.svg, hors pack | Réussi | Ne pas supprimer la provenance |
 
 ## Essais participant
 Non exécuté. Extraire le ZIP dans un autre dossier, ouvrir index.html et effectuer les essais ci-dessus. Renseigner pour chaque essai la date, le navigateur et sa version, la largeur, le résultat et les corrections attendues. Les observations personnelles restent à compléter.
